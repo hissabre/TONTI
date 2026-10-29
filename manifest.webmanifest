@@ -1,7 +1,7 @@
 {
-  "name": "TONTI — des tontines plus sûres",
+  "name": "TONTI",
   "short_name": "TONTI",
-  "description": "Tontines protégées : cotisations et levées par PI-SPI, en FCFA.",
+  "description": "Tontines protégées, multilingues et multidevises — version de démonstration.",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
@@ -10,8 +10,23 @@
   "background_color": "#F6F7F5",
   "theme_color": "#0F5132",
   "icons": [
-    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
