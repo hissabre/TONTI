@@ -1,14 +1,14 @@
 {
   "name": "TONTI — des tontines plus sûres",
   "short_name": "TONTI",
-  "description": "Gérez vos tontines : groupes, cotisations, versements et protection contre les défauts de paiement, en FCFA.",
+  "description": "Tontines protégées : cotisations et levées par PI-SPI, en FCFA.",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#FAF7F0",
-  "theme_color": "#0B3D2C",
+  "background_color": "#F6F7F5",
+  "theme_color": "#0F5132",
   "icons": [
     {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
     {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},

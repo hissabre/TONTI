@@ -9,16 +9,16 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
 <style>
 /* Layout: a single reading column (max 980px) with full-width bands for logo backgrounds; light-only by design, matching the brand ground. */
-:root{--paper:#FAF7F0;--ink:#15211B;--muted:#5F6B64;--line:#E5DED0;--brand:#0B3D2C;--primary:#11583D;--sand:#F2EBDF;--gold:#D49737;
-  --f-ui:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;--f-serif:"Newsreader",Georgia,serif;color-scheme:light}
+:root{--paper:#F6F7F5;--ink:#252B28;--muted:#5D6561;--line:#E3E6E2;--brand:#0F5132;--primary:#0F5132;--sand:#EAD9C4;--gold:#C9A227;
+  --f-ui:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--f-serif:"Plus Jakarta Sans",system-ui,sans-serif;color-scheme:light}
 *,*::before,*::after{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font:15px/1.6 var(--f-ui);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 main{max-width:980px;margin:0 auto;padding-block:40px 64px;display:grid;gap:56px}
-h1{font:500 clamp(34px,6vw,54px)/1.05 var(--f-serif);margin:0;letter-spacing:-.01em;text-wrap:balance}
-h2{font:500 28px/1.15 var(--f-serif);margin:0 0 6px}
+h1{font:800 clamp(32px,5.5vw,50px)/1.08 var(--f-serif);margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font:800 26px/1.2 var(--f-serif);letter-spacing:-.015em;margin:0 0 6px}
 .caps{font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 p{margin:0;max-width:65ch}
 .lead{font-size:17px;color:var(--muted);margin-top:14px}
@@ -28,7 +28,7 @@ p{margin:0;max-width:65ch}
 .panel{border-radius:20px;padding:28px;display:grid;place-items:center;min-height:200px;position:relative;overflow:hidden}
 .panel .cap{position:absolute;left:16px;bottom:12px;font-size:12px;font-weight:600}
 .wm{width:min(100%,360px);height:auto;display:block;overflow:visible}
-.wm .dot{fill:var(--gold)}
+.wm .dot{fill:#D49737}
 .icon{width:132px;height:132px;border-radius:30px;display:grid;place-items:center;box-shadow:0 18px 30px -18px rgb(10 40 25 / .55)}
 .icon img{width:58%}
 .cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px}
@@ -43,7 +43,7 @@ p{margin:0;max-width:65ch}
 .sw p{font-size:12.5px;color:var(--muted);margin-top:4px}
 .ratio{display:flex;height:22px;border-radius:8px;overflow:hidden;margin-top:14px}
 .type{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;gap:6px}
-.type .s{font:500 34px/1.1 var(--f-serif)}
+.type .s{font:800 34px/1.1 var(--f-serif);letter-spacing:-.02em}
 .type .m{font:800 30px/1.1 var(--f-ui);letter-spacing:-.02em}
 .rules{display:grid;gap:10px;counter-reset:r}
 .rules li{list-style:none;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 52px;position:relative}
@@ -62,36 +62,18 @@ p{margin:0;max-width:65ch}
 
 <main>
   <header>
-    <div class="caps">Identité visuelle · v1.1</div>
+    <div class="caps">Identité visuelle · v1.2 · Élégance sahélienne moderne</div>
     <h1 style="margin-top:10px">TONTI, une tradition rendue plus sûre</h1>
-    <p class="lead">Analyse de la première version, puis le système retenu : logo complet, logo simplifié, couleurs, typographie et règles d’interface.</p>
+    <p class="lead">Le système retenu après les maquettes Stitch : logo complet et simplifié, couleurs, typographie et règles d’interface. Les maquettes ont fixé la palette et la police ; le logo reste celui de la marque.</p>
   </header>
-
-  <section>
-    <div class="caps">Analyse</div><h2>Pourquoi la v1 paraissait « jeu »</h2>
-    <div class="cmp" style="margin-top:16px">
-      <div><h3>Ce qui affaiblissait la confiance</h3><ul>
-        <li>Douze couleurs d’avatars et des pastilles colorées partout : l’œil ne savait plus où regarder.</li>
-        <li>Un grand bouton or et des cartes vertes répétées : l’or, censé être précieux, devenait banal.</li>
-        <li>Police arrondie très grasse sur tout le texte : ton ludique, pas bancaire.</li>
-        <li>Coquillage redessiné à la main, éloigné du vrai logo.</li>
-        <li>Chargement en « lancer de dé » : amusant, mais peu rassurant pour de l’argent.</li></ul></div>
-      <div><h3>Ce que fait la v1.1</h3><ul>
-        <li>Fond neutre, cartes blanches, une seule carte vert profond pour le solde.</li>
-        <li>Or réservé au point du « i » et à « votre tour ». Le reste reste sobre.</li>
-        <li>Le coquillage original du logo, et les lettres reconstruites en vecteurs nets.</li>
-        <li>Police d’interface sobre, chiffres alignés ; serif uniquement pour les titres d’accueil.</li>
-        <li>Chargement en anneaux : sécurité, tours de la tontine, synchronisation.</li></ul></div>
-    </div>
-  </section>
 
   <section>
     <div class="caps">Logo complet</div><h2>Le coquillage remplace le O</h2>
     <p class="muted">Lettres vert profond, cauri au naturel, point or. Zone de protection : la hauteur du point tout autour. Taille minimale : 72 px de large.</p>
     <div class="grid3" style="margin-top:16px">
-      <div class="panel" style="background:#FFFFFF;border:1px solid var(--line)"><svg class="wm" data-wm viewBox="0 0 1150 346" style="color:#0B3D2C" aria-label="TONTI"></svg><span class="cap" style="color:#5F6B64">Principal · fond clair</span></div>
-      <div class="panel" style="background:#0B3D2C"><svg class="wm" data-wm viewBox="0 0 1150 346" style="color:#F7F2E8" aria-label="TONTI"></svg><span class="cap" style="color:#B9CBBF">Inversé · vert profond</span></div>
-      <div class="panel" style="background:#F2EBDF"><svg class="pat" aria-hidden="true"><rect width="100%" height="100%" fill="url(#bogolan)"/></svg><svg class="wm" data-wm viewBox="0 0 1150 346" style="color:#0B3D2C;position:relative" aria-label="TONTI"></svg><span class="cap" style="color:#7A6A52">Sable · supports imprimés</span></div>
+      <div class="panel" style="background:#FFFFFF;border:1px solid var(--line)"><svg class="wm" data-wm viewBox="0 0 1150 346" style="color:#0F5132" aria-label="TONTI"></svg><span class="cap" style="color:#5F6B64">Principal · fond clair</span></div>
+      <div class="panel" style="background:#0F5132"><svg class="wm" data-wm viewBox="0 0 1150 346" style="color:#F7F2E8" aria-label="TONTI"></svg><span class="cap" style="color:#B9CBBF">Inversé · vert profond</span></div>
+      <div class="panel" style="background:#F2EBDF"><svg class="pat" aria-hidden="true"><rect width="100%" height="100%" fill="url(#bogolan)"/></svg><svg class="wm" data-wm viewBox="0 0 1150 346" style="color:#0F5132;position:relative" aria-label="TONTI"></svg><span class="cap" style="color:#7A6A52">Sable · supports imprimés</span></div>
     </div>
   </section>
 
@@ -99,45 +81,38 @@ p{margin:0;max-width:65ch}
     <div class="caps">Logo simplifié</div><h2>Le cauri seul, pour l’icône</h2>
     <p class="muted">Icône d’application, avatar de compte, favicon. Le fond or des déclinaisons d’origine est abandonné : il affaiblit le contraste et rapproche la marque d’un jeu.</p>
     <div class="grid3" style="margin-top:16px;justify-items:center">
-      <div class="panel" style="background:#fff;border:1px solid var(--line);width:100%"><div class="icon" style="background:linear-gradient(#125C3E,#083826)"><img data-cowrie alt="Icône TONTI verte"></div><span class="cap" style="color:#5F6B64">Icône principale</span></div>
-      <div class="panel" style="background:#0B3D2C;width:100%"><div class="icon" style="background:#F2EBDF"><img data-cowrie alt="Icône TONTI sable"></div><span class="cap" style="color:#B9CBBF">Variante sable</span></div>
+      <div class="panel" style="background:#fff;border:1px solid var(--line);width:100%"><div class="icon" style="background:linear-gradient(#0F5132,#003820)"><img data-cowrie alt="Icône TONTI verte"></div><span class="cap" style="color:#5F6B64">Icône principale</span></div>
+      <div class="panel" style="background:#0F5132;width:100%"><div class="icon" style="background:#F2EBDF"><img data-cowrie alt="Icône TONTI sable"></div><span class="cap" style="color:#B9CBBF">Variante sable</span></div>
       <div class="panel" style="background:#fff;border:1px solid var(--line);width:100%;gap:14px;grid-auto-flow:column"><img data-cowrie alt="" style="width:40px"><img data-cowrie alt="" style="width:24px"><img data-cowrie alt="" style="width:14px"><span class="cap" style="color:#5F6B64">Petites tailles</span></div>
     </div>
   </section>
 
   <section>
-    <div class="caps">Couleurs</div><h2>Un vert de confiance, l’or en signature</h2>
-    <p class="muted">Répartition visée à l’écran : 70 % neutres, 20 % vert, 8 % sable, 2 % or.</p>
-    <div class="ratio" aria-hidden="true"><i style="flex:70;background:#F4F5F2;border:1px solid var(--line)"></i><i style="flex:20;background:#11583D"></i><i style="flex:8;background:#E5D8C4"></i><i style="flex:2;background:#D49737"></i></div>
+    <div class="caps">Couleurs</div><h2>Vert forêt de confiance, or sahélien en signature</h2>
+    <p class="muted">Répartition visée à l’écran : 70 % toile et blanc, 20 % vert, 7 % sable, 3 % or. Le point du « i » garde l’or d’origine du logo (#D49737).</p>
+    <div class="ratio" aria-hidden="true"><i style="flex:70;background:#F6F7F5;border:1px solid var(--line)"></i><i style="flex:20;background:#0F5132"></i><i style="flex:7;background:#EAD9C4"></i><i style="flex:3;background:#C9A227"></i></div>
+    <div class="grid3" style="margin-top:16px"><div class="sw"><i style="background:#0F5132"></i><div><b>Vert forêt</b><code>#0F5132</code><p>Couleur principale : boutons, en-têtes, navigation active, carte du solde.</p></div></div><div class="sw"><i style="background:#003820"></i><div><b>Vert profond</b><code>#003820</code><p>Fin du dégradé des cartes de solde et des appels forts.</p></div></div><div class="sw"><i style="background:#1F7A4D"></i><div><b>Vert feuille</b><code>#1F7A4D</code><p>Liens, états secondaires, progression positive.</p></div></div><div class="sw"><i style="background:#EAD9C4"></i><div><b>Sable</b><code>#EAD9C4</code><p>Fonds chaleureux, boutons secondaires, reçus.</p></div></div><div class="sw"><i style="background:#C9A227"></i><div><b>Or sahélien</b><code>#C9A227</code><p>Tour en cours, reçus en attente, levée à verser. Jamais en grand aplat.</p></div></div><div class="sw"><i style="background:#F6F7F5"></i><div><b>Toile</b><code>#F6F7F5</code><p>Fond de l’application, lisible en plein soleil.</p></div></div><div class="sw"><i style="background:#252B28"></i><div><b>Encre</b><code>#252B28</code><p>Texte principal et montants. Secondaire : #5D6561.</p></div></div><div class="sw"><i style="background:#C2410C"></i><div><b>Vigilance</b><code>#C2410C</code><p>Délai de grâce, médiation.</p></div></div><div class="sw"><i style="background:#991B1B"></i><div><b>Retard</b><code>#991B1B</code><p>Retard de paiement, rejet, risque élevé.</p></div></div></div>
     <div class="grid3" style="margin-top:16px">
-      <div class="sw"><i style="background:#0B3D2C"></i><div><b>Vert profond</b><code>#0B3D2C</code><p>Lettres du logo, carte du solde, en-têtes de marque.</p></div></div>
-      <div class="sw"><i style="background:#11583D"></i><div><b>Vert action</b><code>#11583D</code><p>Boutons principaux, liens, état actif.</p></div></div>
-      <div class="sw"><i style="background:#1F7A4D"></i><div><b>Vert succès</b><code>#1F7A4D</code><p>Payé, versé, couverture élevée.</p></div></div>
-      <div class="sw"><i style="background:#F2EBDF"></i><div><b>Sable</b><code>#F2EBDF</code><p>Fonds secondaires, avatars, icônes de groupe.</p></div></div>
-      <div class="sw"><i style="background:#D49737"></i><div><b>Or cauri</b><code>#D49737</code><p>Point du « i », « votre tour ». Jamais en grand aplat.</p></div></div>
-      <div class="sw"><i style="background:#F4F5F2"></i><div><b>Gris neutre</b><code>#F4F5F2</code><p>Fond de l’application, légèrement teinté de vert.</p></div></div>
-      <div class="sw"><i style="background:#15211B"></i><div><b>Encre</b><code>#15211B</code><p>Texte principal. Secondaire : #5F6B64.</p></div></div>
-      <div class="sw"><i style="background:#9C620E"></i><div><b>Alerte</b><code>#9C620E</code><p>Échéance proche, couverture moyenne.</p></div></div>
-      <div class="sw"><i style="background:#A3352A"></i><div><b>Retard</b><code>#A3352A</code><p>Retard de paiement, risque élevé.</p></div></div>
+      <div class="sw"><div style="display:flex;gap:6px;flex-wrap:wrap"><span style="background:#E8F3ED;color:#0F5132;font-weight:700;font-size:12px;padding:4px 10px;border-radius:99px">Validé</span><span style="background:#FAF4E3;color:#8C6D13;font-weight:700;font-size:12px;padding:4px 10px;border-radius:99px">Reçu à valider</span><span style="background:#FFF1E8;color:#C2410C;font-weight:700;font-size:12px;padding:4px 10px;border-radius:99px">Délai de grâce</span><span style="background:#FEF2F2;color:#991B1B;font-weight:700;font-size:12px;padding:4px 10px;border-radius:99px">En retard</span></div><p>Pastilles d’état : toujours un mot, jamais la couleur seule.</p></div>
     </div>
   </section>
 
   <section>
-    <div class="caps">Typographie</div><h2>Deux voix, chacune à sa place</h2>
+    <div class="caps">Typographie</div><h2>Une seule famille, Plus Jakarta Sans</h2>
     <div class="grid2" style="margin-top:16px">
-      <div class="type"><span class="caps">Titres d’accueil et marketing</span><span class="s">Épargner ensemble, aller plus loin.</span><span class="muted small">Newsreader 500 · onboarding, récapitulatifs, communication</span></div>
-      <div class="type"><span class="caps">Interface et montants</span><span class="m">250 000 FCFA</span><span class="muted small">Manrope 400 à 800 · chiffres tabulaires, texte courant 15 px</span></div>
+      <div class="type"><span class="caps">Titres et montants</span><span class="s">Épargner ensemble, aller plus loin.</span><span class="muted small">Plus Jakarta Sans 800 · titres, soldes, levées</span></div>
+      <div class="type"><span class="caps">Montants FCFA</span><span class="m">250 000 <span style="font-size:.6em;color:#8A918D;font-weight:600">FCFA</span></span><span class="muted small">Chiffres tabulaires ; « FCFA » plus petit, en gris, juste après le montant</span></div>
     </div>
   </section>
 
   <section>
     <div class="caps">Règles d’interface</div><h2>Sobre, lisible, rassurant</h2>
     <ol class="rules" style="margin-top:16px">
-      <li><b>Un seul accent fort par écran.</b> Le bouton principal est vert ; l’or ne sert jamais de bouton.</li>
+      <li><b>Un seul accent fort par écran.</b> Le bouton principal est vert ; l’or est réservé à « Verser la levée » et à l’appel « Demander un aménagement ».</li>
       <li><b>Le montant d’abord.</b> Chaque carte de tontine montre le montant, la date et l’état, dans cet ordre.</li>
       <li><b>L’état par la forme, pas par la couleur seule.</b> Pastille texte « Payé », « En retard », « Couvert ».</li>
-      <li><b>Avatars neutres.</b> Initiales vertes sur sable ; seul votre avatar est vert profond.</li>
-      <li><b>Mouvement discret.</b> Animation d’ouverture une fois, anneaux de chargement pendant les opérations d’argent.</li>
+      <li><b>Chaque versement a une trace.</b> Référence, reçu numérique, et validation automatique (Mobile Money) ou par le trésorier (espèces, déclarations).</li>
+      <li><b>Bordures fantômes, pas d’ombres lourdes.</b> Cartes blanches avec un filet vert à 8 %, rayon 16 px, pastilles entièrement arrondies.</li><li><b>Mouvement discret.</b> Animation d’ouverture une fois, anneaux de chargement pendant les opérations d’argent.</li>
       <li><b>Toujours en FCFA, toujours en français clair.</b> Espaces fines dans les milliers : 25 000 FCFA.</li>
     </ol>
   </section>
